@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!-- Meanmenu CSS -->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!-- Boxicons CSS -->
+        <link rel="stylesheet" href="assets/css/boxicons.min.css">
+        <!-- Owl Carousel -->
+        <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+        <!-- Slick Slider CSS -->
+        <link rel="stylesheet" href="assets/css/slick.css">
+        <link rel="stylesheet" href="assets/css/slick-theme.css">
+        <!-- Magnific Popup CSS -->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!-- Style CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+
+        <title>Leisure Square Grub & Wine</title>
+
+        <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    </head>
+
+    <body>
+        <!-- Preloader -->
+        <div class="loader">
+            <div class="d-table">
+                <div class="d-table-cell">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+        <!-- End Preloader -->
+
+        <!-- Start Navbar Area -->
+        <div class="navbar-area fixed-top">
+            <!-- Menu For Mobile Device -->
+            <div class="mobile-nav">
+                <a href="/" class="logo">
+                    <img src="assets/img/logo2.png" alt="Logo">
+                </a>
+            </div>
+
+            <!-- Menu For Desktop Device -->
+            <div class="main-nav main-nav-three">
+                <div class="container">
+                    <nav class="navbar navbar-expand-md navbar-light">
+                        <a class="navbar-brand" href="/">
+                            <img src="assets/img/logo.png" alt="Logo">
+                        </a>
+                        <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a href="/">Home</a></li>
+                                <li class="nav-item"><a href="abt"  class="active"	>About Us</a></li>								
+								<li class="nav-item"><a href="gallery">Gallery</a></li>
+								<li class="nav-item"><a href="menu">Menu</a></li>
+                                <li class="nav-item"><a href="contact-us">Contact Us</a></li>
+								<li class="nav-item"><a href="https://leisuresquare.in/onlineorder/">Order Now</a></li>
+							</ul>
+                            <div class="side-nav">
+								<a class="nav-tel" href="tel:6366304818">
+                                    <i class='bx bxs-phone-call'></i>
+                                    6366304818
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- End Navbar Area -->
+
+        <!-- Page Title -->
+        <div class="page-title-area page-title-img-three">
+            <div class="container">
+                <div class="page-title-item">
+                    <h2>About Us</h2>
+                    <ul>
+                        <li>
+                            <a href="/">Home</a>
+                        </li>
+                        <li>
+                            <i class='bx bx-chevron-right' ></i>
+                        </li>
+                        <li><a href="about">About Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- End Page Title -->
+
+        <!-- Story -->
+        <section class="story-area pt-100 pb-70">
+            <div class="story-shape">
+                <!-- <img src="assets/img/about/story3.png" alt="Shape"> -->
+            </div>
+            <div class="container">
+                <div class="story-head">
+                    <h2>About Our Story</h2>
+                    <p>We at Leisure Square Grub & Wine would love to serve you yummy dishes straight from our kitchen ready for you. We will fulfil you hunger needs and ensure that we leave you licking your fingers and asking for more yummy dishes!</p>
+                    <p>We believe passionately in great bargains and excellent service, which is why we commit ourselves to giving you the best of both. If you’re looking for something new, you’re in the right place. We strive to be industrious and innovative, offering our customers something they want, putting their desires at the top of our priority list.</p>
+                    <p>So hurry! Order now!</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="story-item">
+                            <img src="assets/img/about/story1.jpg" alt="Story">
+                            <!-- <h3>Restaurant Service</h3> -->
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-6">
+                        <div class="story-item">
+                            <img src="assets/img/about/story2.jpg" alt="Story">
+                            <!-- <h3>Home Delivery Service</h3> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Story -->
+		
+		 <!-- Download -->
+        <!-- <section class="download-area-two pt-100 pb-70">
+            <div class="download-shape">
+                <img src="assets/img/home-one/reservation-shape.png" alt="Download">
+                <img src="assets/img/about/download2.png" alt="Download">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="download-item">
+                            <h2>Order Online Now Form Website That Make You More Easy to Order</h2>
+                           <div class="banner-btn-wrap">
+                        <a class="cmn-btn" href="online-order.html">Order Now</a>
+                    </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="download-img">
+                            <img src="assets/img/home-one/subscribe-main.png" alt="Download">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!-- End Download -->
+
+        <!-- Service -->
+        <section class="service-area ptb-100">
+            <div class="container">
+                <div class="section-title">
+                    <h2>What We Are Services</h2>
+                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+                </div>
+                <div class="service-slider owl-theme owl-carousel">
+                    <div class="service-item">
+                        <a href="#">
+                            <img src="assets/img/home-one/service1.png" alt="Service">
+                            <img class="service-shape" src="assets/img/home-one/service-shape.png" alt="Service">
+                            <h3>Fresh Healthy Food</h3>
+                            <!-- <p>Fresh food is food which has not been preserved and has not spoiled yet. Fo vegetables and fruits, this means.</p> -->
+                        </a>
+                    </div>
+                    <div class="service-item">
+                        <a href="#">
+                            <img src="assets/img/home-one/service2.png" alt="Service">
+                            <img class="service-shape" src="assets/img/home-one/service-shape.png" alt="Service">
+                            <h3>Fast Home Delivery</h3>
+                            <!-- <p>Fresh food is food which has not been preserved and has not spoiled yet. Fo vegetables and fruits, this means.</p> -->
+                        </a>
+                    </div>
+                    <div class="service-item">
+                        <a href="#">
+                            <img src="assets/img/home-one/service6.png" alt="Service">
+                            <img class="service-shape" src="assets/img/home-one/service-shape.png" alt="Service">
+                            <h3>freshly Prepared</h3>
+                            <!-- <p>Fresh food is food which has not been preserved and has not spoiled yet. Fo vegetables and fruits, this means.</p> -->
+                        </a>
+                    </div>
+                    <!-- <div class="service-item">
+                        <a href="service-details.html">
+                            <img src="assets/img/home-one/service3.png" alt="Service">
+                            <img class="service-shape" src="assets/img/home-one/service-shape.png" alt="Service">
+                            <h3>Discount Voucher</h3>
+                            <p>Fresh food is food which has not been preserved and has not spoiled yet. Fo vegetables and fruits, this means.</p>
+                        </a>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <!-- End Service -->
+
+       
+
+
+         <!-- Footer -->
+         <footer class="footer-area-two pt-100 pb-70">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="footer-item">
+                            <div class="footer-logo">
+                                <a href="/">
+                                    <img src="assets/img/logo.png" alt="Logo">
+                                </a>
+                                <!-- <p>Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> -->
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-sm-6 col-lg-3">
+                        <div class="footer-item">
+                            <div class="footer-service">
+                                <h3>Our Product</h3>
+                                <ul>
+                                    <li>
+                                        <a href="contact-us.html">
+                                            <i class='bx bx-chevron-right'></i>
+                                            Pizza
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class='bx bx-chevron-right'></i>
+                                            Burger
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="chefs.html">
+                                            <i class='bx bx-chevron-right'></i>
+                                            Noth indian
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class='bx bx-chevron-right'></i>
+                                            Punjabi
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="privacy-policy.html">
+                                            <i class='bx bx-chevron-right'></i>
+                                            Fast Food
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="footer-item">
+                            <div class="footer-service">
+                                <h3>Quick Links</h3>
+                                <ul>
+                                    <li>
+                                        <a href="/">
+                                            <i class='bx bx-chevron-right'></i>
+                                            Home
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="about">
+                                            <i class='bx bx-chevron-right'></i>
+                                            About Us
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="menu">
+                                            <i class='bx bx-chevron-right'></i>
+                                            Menu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="gallery">
+                                            <i class='bx bx-chevron-right'></i>
+                                            Gallery
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="contact-us">
+                                            <i class='bx bx-chevron-right'></i>
+                                            Contact Us
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4">
+                        <div class="footer-item">
+                            <div class="footer-service">
+                                <h3>Contact Us</h3>
+                                <ul>
+                                    <li>
+                                        <a href="tel:6366304818">
+                                            <i class='bx bx-phone-call'></i>
+                                            6366304818
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="mailto:leisuresquare8384@gmail.com">
+                                            <i class='bx bx-message-detail'></i>
+                                            leisuresquare8384@gmail.com
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <i class='bx bx-location-plus' ></i>
+                                        178/6 14th main road, 20th, 50th Main Rd, Kumaraswamy Layout, Bengaluru, Karnataka 560078
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+        <!-- Copyright -->
+        <div class="copyright-area  copyright-area-two">
+            <div class="container">
+                <div class="copyright-item">
+                    <p>All Rights Reserved By Leisure Square Grub & Wine @2022. Design By <a href="https://petpooja.com/" target="_blank">PETPOOJA</a>.</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Copyright -->
+
+        
+        <!-- Essential JS -->
+        <script src="assets/js/jquery-3.5.0.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <!-- Meanmenu JS -->
+        <script src="assets/js/jquery.meanmenu.js"></script>
+        <!-- Owl Carousel JS -->
+        <script src="assets/js/owl.carousel.min.js"></script>
+        <!-- Mixitup JS -->
+        <script src="assets/js/jquery.mixitup.min.js"></script>
+        <!-- Slick Slider JS -->
+        <script src="assets/js/slick.min.js"></script>
+        <!-- Form Ajaxchimp JS -->
+		<script src="assets/js/jquery.ajaxchimp.min.js"></script>
+		<!-- Form Validator JS -->
+		<script src="assets/js/form-validator.min.js"></script>
+		<!-- Contact JS -->
+        <script src="assets/js/contact-form-script.js"></script>
+        <!-- Magnific Popup JS -->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!-- Custom JS -->
+        <script src="assets/js/custom.js"></script>
+    </body>
+</html>

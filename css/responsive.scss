@@ -1,0 +1,2379 @@
+
+@media only screen and (max-width : 767px) {
+
+    $all-size: 14px;
+    /*-- Default CSS --*/
+    body {
+        font-size: $all-size;
+    }
+    .ptb-100 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-70 {
+        padding-bottom: 20px;
+    }
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+    /*-- End Default CSS --*/
+
+    /*----- Home One CSS -----*/
+    /*-- Navbar --*/
+    .navbar-area {
+        .side-nav {
+            position: absolute;
+            top: 0;
+            right: 75px;
+        
+            .nav-cart {
+                border: 1px solid #fff;
+                color: #fff;
+                width: 35px;
+                height: 35px;
+                line-height: 42px;
+                font-size: 20px;
+                top: 10px;
+
+                span {
+                    color: #050505;
+                    background-color: #ffffff;
+                }
+            }
+            .nav-tel {
+                display: none;
+            }
+            .modal-btn {
+                display: none;
+            }
+        }
+    }
+    .main-nav {
+        nav {
+            .navbar-nav {
+                .nav-item {
+                    a {
+                        font-size: $all-size;
+                    }
+                }
+            }
+        }
+    }
+    .mean-container .mean-bar {
+        background-color: #050505;
+    }
+    .mobile-nav.mean-container .mean-nav ul li a.active {
+        color: #ffbe00;
+    }
+    .mean-container .mean-nav .navbar-nav {
+        height: 350px;
+        overflow-y: scroll;
+    }
+    .mean-container a.meanmenu-reveal span {
+        position: relative;
+        top: 8px;
+        margin-top: -6px;
+    }
+    /*-- End Navbar --*/
+
+    /*-- Banner --*/
+    .banner-area {
+        height: 100%;
+        padding-top: 125px;
+        padding-bottom: 100px;
+    
+        .banner-shape {
+            img {
+                &:nth-child(1) {
+                    display: none;
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(4) {
+                    display: none;
+                }
+            }
+        }
+        .banner-content {
+            text-align: center;
+
+            h1 {
+                font-size: 35px;
+            }
+            form {
+                .form-control {
+                    font-size: 14px;
+                    padding-left: 20px;
+                    height: 60px;
+                }
+                .banner-form-btn {
+                    padding: 12px 14px;
+                    position: absolute;
+                    top: 7px;
+                    right: 7px;
+                    font-size: $all-size;
+                }
+            }
+        }
+        .banner-slider {
+            display: none;
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- Feature --*/
+    .section-title {
+        margin-bottom: 35px;
+        margin-top: -4px;
+
+        .sub-title {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        h2 {
+            font-size: 25px;
+            margin-bottom: 12px;
+        }
+    }
+    .feature-area {
+        .section-title {
+            text-align: center;
+
+            p {
+                margin-left: auto;
+            }
+        }
+    }
+    .feature-item {
+        .feature-inner {
+            bottom: 15px;
+            max-width: 265px;        
+
+            ul {
+                li {
+                    img {
+                        top: -1px;
+                    }
+                    span {
+                        font-size: 16px;
+                        margin-left: 8px;
+                    }
+                    a {
+                        width: 35px;
+                        height: 35px;
+                        line-height: 40px;
+                        font-size: 21px;                       
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Feature --*/
+
+    /*-- Service --*/
+    .service-area {
+        .service-item {
+            padding: 32px 15px 30px;
+        }
+        .service-slider {
+            .owl-prev {
+                display: none !important;
+            }
+            .owl-next {
+                display: none !important;
+            }
+        }
+    }
+    /*-- End Service --*/
+
+    /*-- Restant--*/
+    .restant-area {
+        padding-top: 95px;
+        padding-bottom: 50px;
+
+        .restant-shape {
+            img {
+                max-width: 75px;
+            }
+        }
+        .restant-content {
+            padding-left: 0;
+            text-align: center;
+            max-width: 100%;
+        
+            .section-title {
+                margin-bottom: 25px;
+                text-align: center;
+
+                p {
+                    margin-left: auto;
+                }
+            }
+        }
+        .restant-img {
+            margin-bottom: 75px;
+            
+            img {
+                &:nth-child(1) {
+                    max-width: 285px;
+                }
+                &:nth-child(2) {
+                    top: -45px;
+                    max-width: 185px;
+                }
+                &:nth-child(3) {
+                    display: none;
+                }
+                &:nth-child(4) {
+                    max-width: 190px;
+                    bottom: -85px;
+                
+                }
+                &:nth-child(5) {
+                    display: none;
+                }
+            }
+        }
+    }
+    .cmn-btn {
+        font-size: $all-size;
+    }
+    /*-- End Restant --*/
+
+    /*-- Collection --*/
+    .collection-area {
+        .more-collection {
+            a {
+                font-size: 15px;
+            }
+        }
+    }
+    .collection-item {
+        .collection-bottom {
+            padding: 15px 15px 17px;
+            
+            h3 {
+                font-size: 18px;
+                margin-bottom: 12px;
+            }
+            ul {
+                vertical-align: middle;
+
+                li {
+                    span {
+                        font-size: 22px;
+                    }
+                    .minus, .plus{
+                        width: 30px;
+                        height: 30px;
+                        line-height: 31px;
+                        font-size: 20px;
+                    }
+                    .form-control {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .sorting-menu {
+        ul {
+            margin-bottom: 30px;
+
+            li {
+                font-size: $all-size;
+                padding: 7px 20px;
+                margin-left: 2px;
+                margin-right: 2px;
+            }
+        }
+    }
+    /*-- End Collection --*/
+
+    /*-- Menu --*/
+    .menu-item {
+        padding: 35px 25px 32px;
+        border: 1px solid #ffbe00;
+        
+        img {
+            margin-bottom: 22px;
+        }
+    }
+    /*-- End Menu --*/
+
+    /*-- Reservation --*/
+    .reservation-area {
+        border-radius: 0 0 20px 0;
+
+        .reservation-item {
+            padding-top: 50px;
+            padding-bottom: 30px;
+        
+            .section-title {
+                text-align: center;
+                margin-bottom: 35px;
+ 
+                p {
+                    margin-left: auto;
+                }
+            }
+            ul {
+                padding: 20px 10px 10px 10px;
+                border-radius: 5px;
+        
+                li {
+                    margin-bottom: 10px;
+                    display: block;
+        
+                    .form-control {
+                        width: 100%;
+                    }
+                    &:first-child {
+                        padding-right: 0;
+                        margin-right: 0;
+        
+                        &:before {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+        .reservation-img {
+            position: relative;
+            top: 0;
+            padding-bottom: 40px;
+        }
+    }
+    /*-- End Reservation --*/
+
+    /*-- Chef --*/
+    .chef-area {
+        padding-top: 50px;
+    }
+    .chef-item {
+        .chef-bottom {
+            ul {
+                li {
+                    &:nth-child(1) {
+                        opacity: 1;
+                        z-index: 1;
+                        bottom: 0;
+                    }
+                    &:nth-child(2) {
+                        opacity: 1;
+                        z-index: 1;
+                        bottom: 0;
+                    }
+                    &:nth-child(3) {
+                        bottom: -10px;
+                        opacity: 1;
+                        z-index: 1;
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Chef --*/
+
+    /*-- Review --*/
+    .review-area {
+        .slick-prev {
+            i {
+                left: 110px;
+            }
+        }
+        .slick-next {
+            i {
+                right: 110px;
+            }
+        }
+        .review-img {
+            img {
+                &:nth-child(2) {
+                    top: 12px;
+                }
+            }
+        }
+        .review-item {
+            padding-top: 30px;
+            padding-bottom: 33px;
+        
+            .slider-nav {
+                margin-bottom: 25px;
+            }
+            .slider-for {
+                p {
+                    padding-left: 5px;
+                    padding-right: 5px; 
+                }
+            }
+        }
+    }
+    /*-- End Review --*/
+
+    /*-- Blog --*/
+    .blog-item {
+        .blog-bottom {
+            padding: 28px 8px 45px 15px;
+
+            h3 {
+                font-size: 20px;
+            }
+        }
+    }
+    .blog-area {
+        .read-blog-btn {
+            font-size: 15px;
+        }
+    }
+    /*-- End Blog --*/
+
+    /*-- Subscribe --*/
+    .subscribe-area {
+        border-radius: 0 0 20px 0;
+    }
+    .subscribe-item {
+        padding-top: 50px;
+        padding-bottom: 30px;
+
+        .section-title {
+            text-align: center;
+
+            p {
+                margin-left: auto;
+            }
+        }
+        .newsletter-form {
+            .form-control {
+                height: 55px;
+                padding: 5px 15px 5px 15px;
+                font-size: 15px;
+            }
+            .cmn-btn {
+                right: 8px;
+                top: 6px;
+                padding: 10px 25px;
+            }
+        }
+        .social-link {
+            ul {
+                text-align: center;
+            }
+        }
+    }
+    .subscribe-img {
+        padding-bottom: 40px;
+    }
+    /*-- End Subscribe --*/
+
+    /*-- Footer --*/
+    .footer-item {
+        .footer-service {
+            h3 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    /*-- End Footer --*/
+
+    /*-- Copyright --*/
+    .copyright-area {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 20px 20px 0 0;
+    }
+    /*-- End Copyright --*/
+    /*----- End Home One CSS -----*/
+
+    /*----- Home Two CSS -----*/
+    /*-- Navbar --*/
+    #myModalRight {
+        display: none;
+    }
+    /*-- End Navbar --*/
+
+    /*-- Banner --*/
+    .banner-area-two {
+        .banner-shape {
+            img {
+                &:nth-child(3) {
+                    left: 0;
+                }
+            }
+        }
+        .banner-content {
+            padding-top: 115px;
+            padding-bottom: 70px;
+            text-align: center;
+
+            h1 {
+                font-size: 30px;
+            }
+            p {
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .banner-btn-wrap {
+                .cmn-btn {
+                    margin-right: 10px;
+                }
+                .banner-btn-two {
+                    padding: 11px 20px;
+                }
+            }
+        }
+        .banner-img {
+            position: relative;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            text-align: center;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- Food Image --*/
+    .food-img-area {
+        margin-top: 50px;
+    }
+    /*-- End Food Image --*/
+
+    /*-- About --*/
+    .about-area {
+        .about-shape {
+            display: none;
+        }
+        .about-img {
+            position: relative;
+            text-align: center;
+
+            img {
+                &:nth-child(1) {
+                    display: none;          
+                }
+                &:nth-child(2) {
+                    max-width: 100%;
+                    right: 0;
+                }
+            }
+        }
+        .about-content {
+            margin-top: 31px;
+            padding-left: 0;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+
+            .section-title {
+                text-align: center;
+                margin-bottom: 25px;
+
+                h2 {
+                    margin-bottom: 20px;
+                }
+                p {
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Download --*/
+    .download-area {
+        .download-content {
+            .section-title {
+                text-align: center;
+            }
+            ul {
+                li {
+                    padding: 10px 15px 10px;
+                    font-size: 17px;
+
+                    &:hover {
+                        margin-left: 0;
+                    }
+                    span {
+                        width: 45px;
+                        height: 45px;
+                        line-height: 47px;
+                        font-size: 20px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .app-wrap {
+                margin-top: 30px;
+
+                a {
+                    margin-right: 10px;
+                    max-width: 130px;
+                }
+            }
+        }
+    }
+    /*-- End Download --*/
+
+    /*-- Join --*/
+    .join-area {
+        margin-top: 50px;
+
+        .join-img {
+            img {
+                position: relative;
+                top: -60px;
+                max-width: 100%;   
+            }
+        }
+        .join-content {
+            padding-top: 0px;
+            padding-bottom: 50px;
+            margin-top: -30px;
+            text-align: center;
+
+            .section-title {
+                text-align: center;
+
+                p {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+    .chef-area-two {
+        padding-top: 50px;
+    }
+    /*-- End Join --*/
+
+    /*-- Review --*/
+    .review-area-two {
+        padding-top: 50px;
+
+        .review-shape {
+            img {
+                max-width: 100px;
+            }
+        }
+        .review-img {
+            text-align: center;
+
+            img {
+                border-radius: 42px;
+            }
+        }
+        .review-item {
+            padding-top: 30px;
+            padding-bottom: 94px;
+        }
+        .slick-prev {
+            i {
+                left: 90px;
+                bottom: -120px;
+
+
+            }
+        }
+        .slick-next {
+            i {
+                right: 90px;
+                bottom: -120px;
+            }
+        }
+    }
+    /*-- End Review --*/
+
+    /*-- Footer --*/
+    .footer-area-two {
+        border-radius: 20px 20px 0 0;
+    }
+    /*-- End Footer --*/
+
+    /*-- Copyright --*/
+    .copyright-area-two {
+        border-radius: 0;
+    }
+    /*-- End Copyright --*/
+    /*----- End Home Two CSS -----*/
+
+    /*----- Home Three CSS -----*/
+    /*-- Banner --*/
+    .banner-area-three {
+        .banner-shape {
+            img {
+                &:nth-child(1) {
+                    display: none;
+                }
+                &:nth-child(2) {
+                    top: 74px;
+                    max-width: 62px;
+                }
+                &:nth-child(3) {
+                    bottom: 0;
+                    right: 0;
+                    max-width: 90px;
+                }
+            }
+        }
+        .banner-content {
+            padding-top: 115px;
+            padding-bottom: 40px;
+            text-align: center;
+
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .banner-btn-wrap {
+                .cmn-btn {
+                    margin-right: 10px;
+                }
+                .banner-btn-two {
+                    padding: 11px 20px;
+                }
+            }
+        }
+        .banner-img {
+            position: relative;
+            bottom: 0;
+            right: 0;
+            text-align: center;
+            padding-bottom: 80px;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- About --*/
+    .about-area-two {
+        .about-shape {
+            img {
+                bottom: 0;
+                right: 0;
+                max-width: 130px;
+            }
+        }
+        .about-img {
+            margin-bottom: 75px;
+            text-align: center;
+            
+            img {
+                &:nth-child(1) {
+                    max-width: 100%;
+                    top: 0;
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+            }
+            .video-wrap {
+                bottom: -45px;
+                right: 0;
+                left: 0;
+            
+                a {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+        .about-content {
+            padding-left: 0;
+            text-align: center;
+
+            .section-title {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Service --*/
+    .service-area-three {
+        .service-item {
+            .accordion { 
+                a {
+                    font-size: $all-size;
+
+                    span {
+                        font-size: $all-size;
+                    }
+                }
+            }
+        }
+        .service-img {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    .join-area-two {
+        margin-top: 60px;
+    }
+    /*-- End Service --*/
+    /*----- End Home Three CSS -----*/
+
+    /*----- About CSS -----*/
+    /*-- Page Title --*/
+    .page-title-area {
+        padding-top: 150px;
+        padding-bottom: 110px;    
+    }
+    .page-title-item {
+        padding-left: 30px;
+
+        &:before {
+            width: 5px;
+            height: 77px;
+        }
+        h2 {
+            font-size: 30px;
+            margin-bottom: 6px;
+        }
+    }
+    /*-- End Page Title --*/
+
+    /*-- Story --*/
+    .story-area {
+        .story-shape {
+            img {
+                max-width: 75px;
+            }
+        }
+        .story-head {
+            margin-bottom: 35px;
+
+            h2 {
+                font-size: 25px;
+                margin-bottom: 15px;
+                margin-top: -6px;
+            }
+        }
+        .story-item {
+            h3 {
+                font-size: 16px;
+                max-width: 245px;
+                padding: 12px;
+                bottom: 20px;            
+            }
+        }
+    }
+    /*-- End Story --*/
+
+    /*-- Download --*/
+    .download-area-two {
+        border-radius: 0 0 20px 0;
+
+        .download-item {
+            text-align: center;
+
+            h2 {
+                font-size: 25px;
+                margin-bottom: 35px;
+            }
+            ul {
+                li {
+                    margin-right: 15px;
+
+                    a {
+                        max-width: 130px;
+                    }
+                }
+            }
+        }
+        .download-img {
+            margin-bottom: 30px;
+            text-align: center;
+
+            img {
+                position: relative;
+                top: 0;
+                right: 0;
+                left: 0;
+                max-width: 100%;
+            }
+        }
+    }
+    /*-- End Download --*/
+    /*----- End About CSS -----*/
+
+    /*----- Service Details CSS -----*/
+    /*-- Page Title --*/
+    .page-title-area-two {
+        &:before {
+            display: none;
+        }
+        .page-title-plate {
+            display: none;
+        }
+    }
+    /*-- End Page Title --*/
+
+    /*-- Service Details --*/
+    .service-details-area {
+        .service-details-item {
+            .service-details-more {
+                h3 {
+                    margin-bottom: 25px;
+                }
+                ul {
+                    li {
+                        a {
+                            font-size: $all-size;
+                        }
+                    }
+                }
+            }
+            .service-details-fresh {
+                text-align: center;
+
+                h2 {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    /*-- End Service Details --*/
+    /*----- End Service Details CSS -----*/
+
+    /*----- Blog Details CSS -----*/
+    /*-- Page Title --*/
+    .page-title-img-two {
+        &:before {
+            clip-path: polygon(0 0, 79% 0%, 55% 100%, 0% 100%);
+        }
+    }
+    /*-- End Page Title --*/
+
+    /*-- Service Details --*/
+    .blog-details-more {
+        padding-bottom: 20px;
+    }
+    .blog-details-nav {
+        ul {
+            li {
+                a {
+                    font-size: $all-size;
+                }
+            }
+        }
+    }
+    /*-- End Service Details --*/
+    /*----- End Blog Details CSS -----*/
+
+    /*----- Cart CSS -----*/
+    /*-- Table --*/
+    .cart-wrap {
+        text-align: center;
+        .table {
+            .thead {
+                tr {
+                    .table-head  {
+                        font-size: 13px;
+                        padding-right: 4px;
+                        padding-left: 4px;
+                    }
+                }
+            }
+            tr {
+                td {
+                    font-size: $all-size;
+                }
+            }
+        }
+        .shop-back {
+            margin-bottom: 15px;
+
+            a {
+                margin-top: 15px;
+            }
+        }
+        .total-shopping {
+            h2 {
+                font-size: 25px;
+                margin-bottom: 15px;
+            }
+            h3 {
+                font-size: 18px;
+            }
+            a {
+                font-size: 14px;
+                padding: 14px 25px;
+            }
+        }
+    }
+    /*-- End Table --*/
+    /*----- End Cart CSS -----*/
+
+    /*----- Checkout CSS -----*/
+    /*-- Checkout --*/
+    .checkout-item {
+        h2 {
+            font-size: 25px;
+            padding-top: 10px;
+            padding-bottom: 14px;
+            margin-bottom: 30px;
+        }
+        .checkout-one {
+            max-width: 100%;
+            padding: 0 10px;
+
+            label {
+                font-size: 14px;
+                margin-right: 7px;
+            }
+            .form-group {
+                .form-control {
+                    width: 64%;
+                }
+            }
+        }
+        .checkout-two {
+            max-width: 100%;
+            padding: 0 10px 30px;
+
+            h3 {
+                margin-bottom: 12px;
+                font-size: 20px;
+            }
+            p {
+                font-size: 14px;
+            }
+            .form-check {
+                span {
+                    font-size: 14px;
+                }
+                .form-check-input {
+                    margin-top: 3px;
+                }
+            }
+        }
+    }
+    /*-- End Checkout --*/
+    /*----- End Checkout CSS -----*/
+
+    /*----- Coming Soon CSS -----*/
+    /*-- Coming --*/
+    .coming-item {
+        height: 100vh;
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 12px;
+        }
+        .coming-wrap {
+            margin-bottom: 20px;
+
+            .coming-inner{
+                h3{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    /*-- End Coming --*/
+    /*----- End Coming Soon CSS -----*/
+
+    /*----- FAQ CSS -----*/
+    /*-- FAQ --*/
+    .faq-area {
+        .faq-head {
+            h2 {
+                margin-bottom: 30px;
+                font-size: 25px;
+            }
+        }
+        .accordion { 
+            p {
+                font-size: $all-size;
+                padding: 12px 12px 12px 18px;
+            }
+            a {
+                font-size: 15px;
+            }
+        }
+    }
+    /*-- End FAQ --*/
+    /*----- End FAQ CSS -----*/
+
+    /*----- Terms & Conditions CSS -----*/
+    /*-- Terms --*/
+    .privacy-area {
+        padding-bottom: 0;
+    }
+    .privacy-item {
+        margin-bottom: 50px;
+
+        h2 {
+            font-size: 22px;
+        }
+    }
+    /*-- End Terms --*/
+    /*----- End Terms & Conditions CSS -----*/
+
+    /*----- 404 CSS -----*/
+    /*-- 404 --*/
+    .error-item {
+        height: 480px;
+
+        h1 {
+            font-size: 80px;
+            margin-bottom: 0;
+        }
+        p {
+            font-size: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        a {
+            padding: 13px 25px;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    }
+    /*-- End 404 --*/
+    /*----- End 404 CSS -----*/
+
+    /*----- Contact CSS -----*/
+    /*-- Location --*/
+    .contact-location-area {
+        .location-item {
+            padding: 40px 15px 40px;
+            border: 1px solid #ffbe00;
+        }
+    }
+    /*-- End Location --*/
+
+    /*-- Form --*/
+    .contact-form-area {
+        .contact-item {
+            padding: 30px 15px;
+
+            #contactForm {
+                margin-bottom: 20px;
+
+                .form-group {
+                    .form-control {
+                        height: 50px;
+                        padding-left: 25px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .text-danger {
+                font-size: 16px;
+            }
+            .text-success {
+                font-size: 16px;
+            }
+        }
+        .contact-img {
+            img {
+                position: relative;
+                left: 0;
+                right: 0;
+                top: 50px;
+            }
+        }
+    }
+    .book-table-area {
+        .book-table-wrap {
+            padding: 30px 10px 35px;
+        }
+    }
+    /*-- End Form --*/
+    /*----- End Contact CSS -----*/
+
+}
+
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+    .service-area {
+        .service-item {
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+
+    $all-size: 14px;
+    /*-- Default CSS --*/
+    body {
+        font-size: $all-size;
+    }
+    .ptb-100 {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .pt-100 {
+        padding-top: 70px;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+    .pb-100 {
+        padding-bottom: 70px;
+    }
+    /*-- End Default CSS --*/
+
+    /*----- Home One CSS -----*/
+    /*-- Navbar --*/
+    .navbar-area {
+        .side-nav {
+            position: absolute;
+            top: 0;
+            right: 75px;
+        
+            .nav-cart {
+                border: 1px solid #fff;
+                color: #fff;
+                width: 35px;
+                height: 35px;
+                line-height: 42px;
+                font-size: 20px;
+                top: 10px;
+
+                span {
+                    color: #050505;
+                    background-color: #ffffff;
+                }
+            }
+            .nav-tel {
+                display: none;
+            }
+            .modal-btn {
+                display: none;
+            }
+        }
+    }
+    .main-nav {
+        nav {
+            .navbar-nav {
+                .nav-item {
+                    a {
+                        font-size: $all-size;
+                    }
+                }
+            }
+        }
+    }
+    .mean-container .mean-bar {
+        background-color: #050505;
+    }
+    .mobile-nav.mean-container .mean-nav ul li a.active {
+        color: #ffbe00;
+    }
+    .mean-container .mean-nav .navbar-nav {
+        height: 350px;
+        overflow-y: scroll;
+    }
+    .mean-container a.meanmenu-reveal span {
+        position: relative;
+        top: 8px;
+        margin-top: -6px;
+    }
+    /*-- End Navbar --*/
+
+    /*-- Banner --*/
+    .banner-area {
+        height: 100%;
+        padding-top: 110px;
+        padding-bottom: 70px;
+    
+        .banner-shape {
+            img {
+                &:nth-child(1) {
+                    display: none;
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+                &:nth-child(4) {
+                    display: none;
+                }
+            }
+        }
+        .banner-content {
+            text-align: center;
+
+            h1 {
+                font-size: 35px;
+            }
+            form {
+                .form-control {
+                    font-size: 14px;
+                    padding-left: 20px;
+                    height: 60px;
+                }
+                .banner-form-btn {
+                    padding: 12px 14px;
+                    position: absolute;
+                    top: 7px;
+                    right: 7px;
+                    font-size: $all-size;
+                }
+            }
+        }
+        .banner-slider {
+            display: none;
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- Feature --*/
+    .section-title {
+        margin-bottom: 40px;
+        margin-top: -2px;
+
+        .sub-title {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        h2 {
+            font-size: 30px;
+            margin-bottom: 12px;
+        }
+    }
+    .feature-area {
+        .section-title {
+            text-align: center;
+
+            p {
+                margin-left: auto;
+            }
+        }
+    }
+    .feature-item {
+        .feature-inner {
+            bottom: 15px;
+            max-width: 265px;        
+
+            ul {
+                li {
+                    img {
+                        top: -1px;
+                    }
+                    span {
+                        font-size: 16px;
+                        margin-left: 8px;
+                    }
+                    a {
+                        width: 35px;
+                        height: 35px;
+                        line-height: 40px;
+                        font-size: 21px;                       
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Feature --*/
+
+    /*-- Service --*/
+    .service-area {
+        .service-slider {
+            .owl-prev {
+                display: none !important;
+            }
+            .owl-next {
+                display: none !important;
+            }
+        }
+    }
+    /*-- End Service --*/
+
+    /*-- Restant--*/
+    .restant-area {
+        padding-top: 115px;
+        padding-bottom: 70px;
+
+        .restant-shape {
+            img {
+                max-width: 100px;
+            }
+        }
+        .restant-content {
+            padding-left: 0;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+
+            .section-title {
+                margin-bottom: 25px;
+                text-align: center;
+
+                p {
+                    margin-left: auto;
+                }
+            }
+        }
+        .restant-img {
+            margin-bottom: 75px;
+            
+            img {
+                &:nth-child(1) {
+                    max-width: 100%;
+                }
+                &:nth-child(2) {
+                    top: -45px;
+                    max-width: 210px;
+                }
+                &:nth-child(3) {
+                    top: 260px;
+                    right: -36px;
+                    max-width: 195px;
+                }
+                &:nth-child(4) {
+                    max-width: 220px;
+                    bottom: -85px;
+                }
+                &:nth-child(5) {
+                    top: 245px;
+                    max-width: 230px;
+                }
+            }
+        }
+    }
+    .cmn-btn {
+        font-size: $all-size;
+    }
+    /*-- End Restant --*/
+
+    /*-- Collection --*/
+    .collection-area {
+        .more-collection {
+            a {
+                font-size: 15px;
+            }
+        }
+    }
+    .collection-item {
+        .collection-bottom {
+            padding: 15px 15px 17px;
+            
+            h3 {
+                font-size: 18px;
+                margin-bottom: 12px;
+            }
+            ul {
+                vertical-align: middle;
+
+                li {
+                    span {
+                        font-size: 22px;
+                    }
+                    .minus, .plus{
+                        width: 30px;
+                        height: 30px;
+                        line-height: 31px;
+                        font-size: 20px;
+                    }
+                    .form-control {
+                        width: 40px;
+                    }
+                }
+            }
+        }
+    }
+    .sorting-menu {
+        ul {
+            margin-bottom: 30px;
+
+            li {
+                font-size: $all-size;
+                padding: 7px 20px;
+                margin-left: 2px;
+                margin-right: 2px;
+            }
+        }
+    }
+    /*-- End Collection --*/
+
+    /*-- Reservation --*/
+    .reservation-area {
+        border-radius: 0 0 20px 0;
+
+        .reservation-item {
+            padding-top: 70px;
+            padding-bottom: 30px;
+        
+            .section-title {
+                text-align: center;
+                margin-bottom: 35px;
+ 
+                p {
+                    margin-left: auto;
+                }
+            }
+        }
+        .reservation-img {
+            position: relative;
+            top: 0;
+            padding-bottom: 60px;
+        }
+    }
+    /*-- End Reservation --*/
+
+    /*-- Chef --*/
+    .chef-area {
+        padding-top: 70px;
+    }
+    .chef-item {
+        .chef-bottom {
+            ul {
+                li {
+                    &:nth-child(1) {
+                        opacity: 1;
+                        z-index: 1;
+                        bottom: 0;
+                    }
+                    &:nth-child(2) {
+                        opacity: 1;
+                        z-index: 1;
+                        bottom: 0;
+                    }
+                    &:nth-child(3) {
+                        bottom: -10px;
+                        opacity: 1;
+                        z-index: 1;
+                        bottom: 0;
+                    }
+                }
+            }
+        }
+    }
+    /*-- End Chef --*/
+
+    /*-- Review --*/
+    .review-area {
+        .slick-prev {
+            i {
+                left: 230px;
+            }
+        }
+        .slick-next {
+            i {
+                right: 230px;
+            }
+        }
+        .review-img {
+            img {
+                &:nth-child(2) {
+                    top: 12px;
+                    right: 25px;
+                }
+            }
+        }
+        .review-item {
+            padding-top: 30px;
+            padding-bottom: 45px;
+            margin-left: auto;
+            margin-right: auto;
+        
+            .slider-nav {
+                margin-bottom: 25px;
+            }
+            .slider-for {
+                p {
+                    padding-left: 5px;
+                    padding-right: 5px; 
+                }
+            }
+        }
+    }
+    /*-- End Review --*/
+
+    /*-- Subscribe --*/
+    .subscribe-area {
+        border-radius: 0 0 20px 0;
+    }
+    .subscribe-item {
+        padding-top: 70px;
+        padding-bottom: 30px;
+
+        .section-title {
+            text-align: center;
+
+            p {
+                margin-left: auto;
+            }
+        }
+        .newsletter-form {
+            .form-control {
+                height: 55px;
+                padding: 5px 15px 5px 30px;
+                font-size: 15px;
+            }
+            .cmn-btn {
+                right: 8px;
+                top: 6px;
+                padding: 10px 25px;
+            }
+        }
+        .social-link {
+            ul {
+                text-align: center;
+            }
+        }
+    }
+    .subscribe-img {
+        padding-bottom: 60px;
+    }
+    /*-- End Subscribe --*/
+
+    /*-- Footer --*/
+    .footer-item {
+        .footer-service {
+            h3 {
+                margin-bottom: 20px;
+            }
+        }
+    }
+    /*-- End Footer --*/
+
+    /*-- Copyright --*/
+    .copyright-area {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-radius: 20px 20px 0 0;
+    }
+    /*-- End Copyright --*/
+    /*----- End Home One CSS -----*/
+
+    /*----- Home Two CSS -----*/
+    /*-- Navbar --*/
+    #myModalRight {
+        display: none;
+    }
+    /*-- End Navbar --*/
+
+    /*-- Banner --*/
+    .banner-area-two {
+        .banner-shape {
+            img {
+                &:nth-child(3) {
+                    left: 0;
+                }
+            }
+        }
+        .banner-content {
+            padding-top: 115px;
+            padding-bottom: 70px;
+            text-align: center;
+
+            h1 {
+                font-size: 42px;
+            }
+            p {
+                margin-bottom: 30px;
+                font-size: 16px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+        .banner-img {
+            position: relative;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            text-align: center;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- Food Image --*/
+    .food-img-area {
+        margin-top: 70px;
+    }
+    /*-- End Food Image --*/
+
+    /*-- About --*/
+    .about-area {
+        .about-shape {
+            display: none;
+        }
+        .about-img {
+            img {
+                &:nth-child(2) {
+                    max-width: 100%;
+                }
+            }
+        }
+        .about-content {
+            margin-top: 31px;
+            padding-left: 0;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+
+            .section-title {
+                text-align: center;
+                margin-bottom: 25px;
+
+                h2 {
+                    margin-bottom: 20px;
+                }
+                p {
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Download --*/
+    .download-area {
+        .download-content {
+            .section-title {
+                text-align: center;
+            }
+            ul {
+                li {
+                    padding: 10px 15px 10px;
+                    font-size: 17px;
+                    margin-left: auto;
+                    margin-right: auto;
+
+                    &:hover {
+                        margin-left: 0;
+                    }
+                    span {
+                        width: 45px;
+                        height: 45px;
+                        line-height: 47px;
+                        font-size: 20px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            .app-wrap {
+                margin-top: 30px;
+                text-align: center;
+
+                a {
+                    margin-right: 10px;
+                    max-width: 130px;
+                }
+            }
+        }
+        .download-img {
+            text-align: center;
+        }
+    }
+    /*-- End Download --*/
+
+    /*-- Join --*/
+    .join-area {
+        margin-top: 60px;
+
+        .join-img {
+            img {
+                position: relative;
+                top: -60px;
+                max-width: 100%;   
+            }
+        }
+        .join-content {
+            padding-top: 0px;
+            padding-bottom: 50px;
+            margin-top: -30px;
+            text-align: center;
+
+            .section-title {
+                text-align: center;
+
+                p {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+    }
+    .chef-area-two {
+        padding-top: 70px;
+    }
+    /*-- End Join --*/
+
+    /*-- Review --*/
+    .review-area-two {
+        padding-top: 70px;
+
+        .review-shape {
+            img {
+                max-width: 100px;
+            }
+        }
+        .review-img {
+            text-align: center;
+
+            img {
+                border-radius: 42px;
+            }
+        }
+        .review-item {
+            padding-top: 30px;
+            padding-bottom: 135px;
+        }
+        .slick-prev {
+            i {
+                left: 215px;
+                bottom: -120px;
+
+
+            }
+        }
+        .slick-next {
+            i {
+                right: 215px;
+                bottom: -120px;
+            }
+        }
+    }
+    /*-- End Review --*/
+
+    /*-- Footer --*/
+    .footer-area-two {
+        border-radius: 20px 20px 0 0;
+    }
+    /*-- End Footer --*/
+
+    /*-- Copyright --*/
+    .copyright-area-two {
+        border-radius: 0;
+    }
+    /*-- End Copyright --*/
+    /*----- End Home Two CSS -----*/
+
+    /*----- Home Three CSS -----*/
+    /*-- Banner --*/
+    .banner-area-three {
+        .banner-shape {
+            img {
+                &:nth-child(1) {
+                    display: none;
+                }
+                &:nth-child(2) {
+                    top: 74px;
+                    max-width: 62px;
+                }
+                &:nth-child(3) {
+                    bottom: 0;
+                    right: 0;
+                    max-width: 90px;
+                }
+            }
+        }
+        .banner-content {
+            padding-top: 115px;
+            padding-bottom: 40px;
+            text-align: center;
+
+            h1 {
+                font-size: 38px;
+            }
+            p {
+                margin-bottom: 30px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .banner-btn-wrap {
+                .cmn-btn {
+                    margin-right: 10px;
+                }
+                .banner-btn-two {
+                    padding: 11px 20px;
+                }
+            }
+        }
+        .banner-img {
+            position: relative;
+            bottom: 0;
+            right: 0;
+            text-align: center;
+            padding-bottom: 80px;
+
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    /*-- End Banner --*/
+
+    /*-- About --*/
+    .about-area-two {
+        .about-shape {
+            img {
+                bottom: 0;
+                right: 0;
+                max-width: 130px;
+            }
+        }
+        .about-img {
+            margin-bottom: 75px;
+            text-align: center;
+            
+            img {
+                &:nth-child(1) {
+                    max-width: 100%;
+                    top: 0;
+                }
+                &:nth-child(2) {
+                    display: none;
+                }
+            }
+            .video-wrap {
+                bottom: -45px;
+                right: 0;
+                left: 0;
+            
+                a {
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+            }
+        }
+        .about-content {
+            padding-left: 0;
+            text-align: center;
+
+            .section-title {
+                text-align: center;
+                margin-bottom: 30px;
+            }
+        }
+    }
+    /*-- End About --*/
+
+    /*-- Service --*/
+    .service-area-three {
+        .service-item {
+            .accordion { 
+                a {
+                    font-size: $all-size;
+
+                    span {
+                        font-size: $all-size;
+                    }
+                }
+            }
+        }
+        .service-img {
+            img {
+                max-width: 100%;
+            }
+        }
+    }
+    .join-area-two {
+        margin-top: 60px;
+    }
+    /*-- End Service --*/
+    /*----- End Home Three CSS -----*/
+
+    /*----- About CSS -----*/
+    /*-- Page Title --*/
+    .page-title-area {
+        padding-top: 150px;
+        padding-bottom: 110px;    
+    }
+    .page-title-item {
+        padding-left: 30px;
+
+        &:before {
+            width: 5px;
+            height: 77px;
+        }
+        h2 {
+            font-size: 30px;
+            margin-bottom: 6px;
+        }
+    }
+    /*-- End Page Title --*/
+
+    /*-- Story --*/
+    .story-area {
+        .story-shape {
+            img {
+                max-width: 75px;
+            }
+        }
+        .story-head {
+            margin-bottom: 35px;
+
+            h2 {
+                font-size: 30px;
+                margin-bottom: 15px;
+                margin-top: -8px;
+            }
+        }
+        .story-item {
+            h3 {
+                font-size: 16px;
+                max-width: 245px;
+                padding: 12px;
+                bottom: 20px;            
+            }
+        }
+    }
+    /*-- End Story --*/
+
+    /*-- Download --*/
+    .download-area-two {
+        border-radius: 0 0 20px 0;
+
+        .download-item {
+            text-align: center;
+
+            h2 {
+                font-size: 25px;
+                margin-bottom: 35px;
+            }
+            ul {
+                li {
+                    margin-right: 15px;
+
+                    a {
+                        max-width: 130px;
+                    }
+                }
+            }
+        }
+        .download-img {
+            margin-bottom: 30px;
+            text-align: center;
+            img {
+                position: relative;
+                top: 0;
+                right: 0;
+                left: 0;
+                max-width: 100%;
+            }
+        }
+    }
+    /*-- End Download --*/
+    /*----- End About CSS -----*/
+    
+    /*----- Service Details CSS -----*/
+    /*-- Page Title --*/
+    .page-title-area-two {
+        &:before {
+            display: none;
+        }
+        .page-title-plate {
+            display: none;
+        }
+    }
+    /*-- End Page Title --*/
+
+    /*-- Service Details --*/
+    .service-details-area {
+        .service-details-item {
+            .service-details-more {
+                h3 {
+                    margin-bottom: 25px;
+                }
+                ul {
+                    li {
+                        a {
+                            font-size: $all-size;
+                        }
+                    }
+                }
+            }
+            .service-details-fresh {
+                text-align: center;
+
+                h2 {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+    /*-- End Service Details --*/
+    /*----- End Service Details CSS -----*/
+
+    /*----- Blog Details CSS -----*/
+    /*-- Service Details --*/
+    .blog-details-more {
+        padding-bottom: 20px;
+    }
+    .blog-details-nav {
+        ul {
+            li {
+                a {
+                    font-size: $all-size;
+                }
+            }
+        }
+    }
+    /*-- End Service Details --*/
+    /*----- End Blog Details CSS -----*/
+
+    /*----- Checkout CSS -----*/
+    /*-- Checkout --*/
+    .checkout-item {
+        h2 {
+            font-size: 30px;
+        }
+        .checkout-one {
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .checkout-two {
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+    /*-- End Checkout --*/
+    /*----- End Checkout CSS -----*/
+
+    /*----- Coming Soon CSS -----*/
+    /*-- Coming --*/
+    .coming-item {
+        height: 100vh;
+
+        h1 {
+            font-size: 35px;
+            margin-bottom: 12px;
+        }
+        .coming-wrap {
+            margin-bottom: 20px;
+
+            .coming-inner{
+                h3{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    /*-- End Coming --*/
+    /*----- End Coming Soon CSS -----*/
+
+    /*----- FAQ CSS -----*/
+    /*-- FAQ --*/
+    .faq-area {
+        .faq-head {
+            h2 {
+                margin-bottom: 30px;
+                font-size: 30px;
+            }
+        }
+        .accordion { 
+            p {
+                font-size: $all-size;
+                padding: 12px 12px 12px 18px;
+            }
+            a {
+                font-size: 15px;
+            }
+        }
+    }
+    /*-- End FAQ --*/
+    /*----- End FAQ CSS -----*/
+
+    /*----- Terms & Conditions CSS -----*/
+    /*-- Terms --*/
+    .privacy-area {
+        padding-bottom: 20px;
+    }
+    .privacy-item {
+        margin-bottom: 50px;
+
+        h2 {
+            font-size: 22px;
+        }
+    }
+    /*-- End Terms --*/
+    /*----- End Terms & Conditions CSS -----*/
+
+    /*----- 404 CSS -----*/
+    /*-- 404 --*/
+    .error-item {
+        height: 480px;
+
+        h1 {
+            font-size: 80px;
+            margin-bottom: 0;
+        }
+        p {
+            font-size: 20px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+        a {
+            padding: 13px 25px;
+            margin-top: 30px;
+            font-size: 14px;
+        }
+    }
+    /*-- End 404 --*/
+    /*----- End 404 CSS -----*/
+
+    /*----- Contact CSS -----*/
+    /*-- Location --*/
+    .contact-location-area {
+        .location-item {
+            padding: 40px 15px 40px;
+            border: 1px solid #ffbe00;
+        }
+    }
+    /*-- End Location --*/
+
+    /*-- Form --*/
+    .contact-form-area {
+        .contact-item {
+            padding: 30px 15px;
+
+            #contactForm {
+                margin-bottom: 20px;
+
+                .form-group {
+                    .form-control {
+                        height: 50px;
+                        padding-left: 25px;
+                        font-size: 14px;
+                    }
+                }
+            }
+            .text-danger {
+                font-size: 18px;
+            }
+            .text-success {
+                font-size: 18px;
+            }
+        }
+        .contact-img {
+            img {
+                position: relative;
+                left: 0;
+                right: 0;
+                top: 70px;
+            }
+        }
+    }
+    .book-table-area {
+        .book-table-wrap {
+            padding: 40px 30px 45px;
+        }
+    }
+    /*-- End Form --*/
+    /*----- End Contact CSS -----*/
+    .reservation-area {
+        .reservation-item {
+            ul {
+                max-width: 540px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+    
+
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+
+    .main-nav nav .navbar-nav .nav-item a {
+        font-size: 14px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .main-nav nav .side-nav .nav-tel {
+        margin-left: 10px;
+    }
+    .feature-item .feature-inner {
+        max-width: 265px;
+    }
+    .service-area .service-slider .owl-prev {
+        display: none;
+    }
+    .service-area .service-slider .owl-next {
+        display: none;
+    }
+    .collection-item .collection-bottom {
+        padding: 15px 10px 17px;
+    }
+    .collection-item .collection-bottom h3 {
+        font-size: 16px;
+    }
+    .reservation-area .reservation-item ul li:last-child .cmn-btn {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+    .review-area .slick-prev i {
+        left: 185px;
+    }
+    .review-area .slick-next i {
+        right: 185px;
+    }
+    .banner-area-two .banner-img img {
+        max-width: 350px;
+    }
+    .join-area .join-img img {
+        top: -95px;
+    }
+    .banner-area-three .banner-img img {
+        max-width: 340px;
+    }
+    .service-area-three .service-item .accordion a {
+        font-size: 14px;
+    }
+    .checkout-item .checkout-one {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .checkout-item .checkout-two {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .checkout-item .checkout-one .form-group .form-control {
+        width: 75%;
+    }
+    .banner-area .banner-content h1 {
+        font-size: 50px;
+    }
+    .banner-area .banner-shape img:nth-child(4) {
+        display: none;
+    }
+    .reservation-area .reservation-item ul {
+        padding: 20px 11px 20px 20px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .banner-area-three .banner-img img {
+        max-width: 100%;
+    }
+}
